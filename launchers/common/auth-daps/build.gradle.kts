@@ -8,6 +8,7 @@ val edcGroup: String by project
 dependencies {
     // OAuth2 IAM
     api("${edcGroup}:oauth2-core:${edcVersion}")
+    api("${edcGroup}:oauth2-daps:${edcVersion}")
     api("${edcGroup}:vault-filesystem:${edcVersion}")
 }
 
