@@ -97,7 +97,7 @@ allprojects {
             }
         }
         maven {
-            url = uri("https://maven.pkg.github.com/sovity/core-edc")
+            url = uri("https://maven.pkg.github.com/pneuschwander/core-edc")
             credentials {
                 username = project.findProperty("gpr.user") as String? ?: System.getenv("USERNAME")
                 password = project.findProperty("gpr.key") as String? ?: System.getenv("TOKEN")
